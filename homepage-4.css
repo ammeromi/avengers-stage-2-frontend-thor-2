@@ -1,0 +1,138 @@
+ *{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+
+
+ body {
+     margin: 0;
+     background: #ffffff;
+ }
+
+
+ #homepage-4 {
+     background: url("images/Restaurant\ view.png");
+     background-repeat: no-repeat;
+     background-size: cover;
+     width: 100%;
+     height: 248px;
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: center;
+     justify-content: space-around;
+ }
+
+
+ .word-image__1 img,
+ .word-image__2 img,
+ .word-image__3 img {
+     width: 200px;
+ }
+
+
+ .hotel-info {
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: center;
+     justify-content: space-evenly;
+     background: #ffffff;
+     margin: 15px 350px;
+     vertical-align: top;
+
+ }
+
+
+ .logo-and-icon {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: space-around;
+     padding-top: 0px;
+ }
+
+
+ .logo-and-icon img {
+     width: 100px;
+ }
+
+
+ .social-media__icon {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around;
+
+ }
+
+
+ .social-media__icon i {
+     background-color: #ffffff;
+     text-decoration: none;
+     width: 6px;
+     height: 11px;
+ }
+
+
+ .vl {
+     border-left: 6px solid green;
+     height: 500px;
+     position: absolute;
+     left: 50%;
+     margin-left: -3px;
+     top: 0;
+ }
+
+
+ .hotel-address {
+     list-style-type: none;
+     text-decoration: none;
+     padding-bottom: 8px;
+
+ }
+
+
+ ul p {
+     font-family: 'Times New Roman', Times, serif;
+     font-style: normal;
+     font-weight: bold;
+     font-size: 18px;
+     line-height: 18px;
+ }
+
+
+ .hotel-address li {
+     text-decoration: none;
+     list-style-type: none;
+     font-family: 'Times New Roman', Times, serif;
+     font-style: normal;
+     font-weight: normal;
+     font-size: 16px;
+     line-height: 20px;
+ }
+
+
+ .hotel-hotline {
+     list-style-type: none;
+     text-decoration: none;
+     padding-bottom: 30px;
+ }
+
+
+
+ .hotel-hotline li {
+     list-style-type: none;
+     text-decoration: none;
+     font-family: 'Times New Roman', Times, serif;
+     font-style: normal;
+     font-weight: normal;
+     font-size: 16px;
+     line-height: 20px;
+ }
+
+
+ .vertical-line {
+     border-left: 3px solid;
+     height: 100px;
+ }
